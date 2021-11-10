@@ -1,3 +1,5 @@
+package Lab2;
+
 public class InverseM {
 
     public static double determinant(double[][] matrix) {
@@ -15,6 +17,8 @@ public class InverseM {
 }
 
     public static double[][] inverse(double[][] matrix) {
+        System.out.println("********** Inverse matrix: **********");
+
         double[][] inverse = new double[matrix.length][matrix.length];
 
         // minors and cofactors
